@@ -29,6 +29,6 @@ setInterval(() => {
 
     ReactDOM.render(<Home />, document.querySelector("#app"));
     <Home num1={firstNumber} num2={secondNumber} num3={thirdNumber} num4={fourthNumber} num5={fifthNumber} />,
-        document.querySelector("#app")
+        document.querySelector("#app");
 
 }, 1000);
